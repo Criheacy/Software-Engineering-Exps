@@ -1,0 +1,5 @@
+jdbc:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://121.4.172.18:3306/software-exp
+  username: software-exp
+  password: r3yWaSwjfhSskhEA
