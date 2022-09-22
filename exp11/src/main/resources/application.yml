@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.4.172.18:3306/software-final
+    username: software-final
+    password: rSayxzWKMharaZXy
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+application:
+  jwt-secret-path: src/main/resources/secret.jwt

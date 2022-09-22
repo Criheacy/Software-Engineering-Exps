@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.criheacy.exp11.mapper.UserMapper">
+  <insert id="createUser" parameterType="com.criheacy.exp11.entity.UserDO">
+    INSERT INTO user (name, gender, location, password_enc, description)
+    VALUES (#{name}, #{gender}, #{location}, #{passwordEnc}, #{description})
+  </insert>
+</mapper>
